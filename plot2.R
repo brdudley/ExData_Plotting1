@@ -63,3 +63,6 @@ plot2<-function(debug.mode=FALSE){
         if(!debug.mode)
                 dev.off(dev.cur())
 }
+
+## Invoke the plot function.
+plot2()
